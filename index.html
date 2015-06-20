@@ -12,6 +12,18 @@
             color: #18913e;
             font-weight: bold;
         }
+        .container {
+            max-width: 768px;
+            background: white;
+            padding: 40px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 0 20px;
+            border-radius: 4px;
+        }
+        body {
+            background: #335141;
+        }
     </style>
 
 </head>
@@ -24,12 +36,41 @@
         </p>
 
         <form action="POST">
-            <div class="form-group row">
-                <div class="col-lg-4 col-sm-6">
-                    <label for="form-email">Email</label>
-                    <input class="form-control" type="email" id="form-email">
-                </div>
+
+            <div class="row">
+            <div class="form-group col-sm-6">
+                <label for="form-name">Name</label>
+                <input class="form-control" type="text" id="form-name">
             </div>
+            </div>
+
+            <div class="row">
+            <div class="form-group col-sm-6">
+                <label for="form-email">Email</label>
+                <input class="form-control" type="text" id="form-email">
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="form-group col-sm-8">
+                <label for="form-subject">Subject</label>
+                <input class="form-control" type="text" id="form-subject">
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="form-group col-sm-8">
+                <label for="form-message">Message</label>
+                <textarea rows="8" class="form-control" id="form-message"></textarea>
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="form-group col-sm-8">
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+            </div>
+
         </form>
     </div>
 </body>
