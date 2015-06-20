@@ -386,15 +386,8 @@
     "grid.less",
     "forms.less",
     "buttons.less",
-    "responsive-utilities.less",
-    "glyphicons.less",
-    "input-groups.less",
-    "labels.less",
-    "badges.less",
-    "list-group.less",
-    "wells.less",
-    "close.less"
+    "responsive-utilities.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c7657cf8374a827feee8"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=1b38d13383a3f164c5ad"
 }
